@@ -1,33 +1,37 @@
 # Create validation method from comment
-context: address-create.component.ts 
+Context: address-create.component.ts 
 
     // Validate user input to prevent injection attacks
 
 # Make it explain
-context: address-create.component.ts 
+Context: address-create.component.ts 
 
     Write an explanation for the active selection as paragraphs of text.
 
 # Review current and help me improve security
 
-context: address-create.component.ts
+Context: address-create.component.ts
 
 Promts:
 
     Review current document to help me improve security and make sure to follow OWASP secure coding best practices
 
-Follow up prompts:
+Follow-up prompts:
 
     Prepare Input Validation and Sanitization methods so that I can insert it into the current document
 
+<p>
+
     Validate the security in the selected method and how well it will work, sanitizing the input
+
+<p>
 
     Improve the sanitizeInput method based on the last feedback
 
 
 # Analyze the API Code
 
-context: @workspace
+Context: @workspace
 
     The save method in address-create.component.ts uses addressService to save the data to the API. The API is also defined in current workspace. Find out where it is located and also give me a analyze of how security the API code is.
 
